@@ -18,6 +18,10 @@ Get Cycle History:
 Get daily usage:
 <img width="920" alt="Screen Shot 2024-06-11 at 12 15 34 PM" src="https://github.com/sreeTemporary/UsMobile_OA/assets/172415694/96977f05-52fa-4d0f-9ff2-7b51ff691065">
 
+Test ScreenShot:
+<img width="1151" alt="Screen Shot 2024-06-11 at 12 27 43 PM" src="https://github.com/sreeTemporary/UsMobile_OA/assets/172415694/68eb29fa-4daa-4673-b420-677380c49799">
+
+
 
 Improvements:
 The first improvement I would make is to create DB auditing changes. I would add 4 new fields to each collection, - createdOn, createdBy, updatedOn, updatedBy. These fields would allow other company employees to see the changes made in the collection.
