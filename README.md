@@ -1,4 +1,4 @@
-[Daily_Usage.json](https://github.com/user-attachments/files/15792688/Daily_Usage.json)# UsMobile_OA
+UsMobile_OA
 Coding assesment for Us Mobile
 
 API design Explanation:
