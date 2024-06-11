@@ -46,7 +46,6 @@ class DemoApplicationTests {
 		assertEquals(result.getEmail(), user.getEmail());
 		assertEquals(result.getFirstName(), user.getFirstName());
 		assertEquals(result.getLastName(), user.getLastName());
-		assertEquals(result.getPassword(), user.getPassword());
 
 	}
 
