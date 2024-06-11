@@ -20,4 +20,14 @@ Get daily usage:
 
 
 Improvements:
-The first improvement I would make is to create DB auditing changes. I would add 4 new fields to each collection, - createdOn, createdBy, updatedOn, updatedBy. These fields would allow other company employees see the changes that were made in the collection.
+The first improvement I would make is to create DB auditing changes. I would add 4 new fields to each collection, - createdOn, createdBy, updatedOn, updatedBy. These fields would allow other company employees to see the changes made in the collection.
+I would also create a lookup table between userId and mdn so that the cycle and daily usage values can be queried against one value instead of two. 
+For example:
+lookupTable - 
+userId  mdn
+1        111-000-1111
+1        111-222-1111
+2        222-000-1111
+2        222-333-1111
+
+then the Daily usage and Cycle don't have to use UserId and it can be searched by just mdn,
