@@ -1,5 +1,7 @@
 package com.usMobile.demo.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
@@ -14,6 +16,7 @@ public class User {
     private String firstName;
     private String lastName;
     private String email;
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private String password;
 
     public User() {
